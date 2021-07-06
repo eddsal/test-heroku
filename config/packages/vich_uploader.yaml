@@ -2,7 +2,7 @@ vich_uploader:
     db_driver: orm
     mappings:
         voyage_image:
-            uri_prefix:  '%app.path.voyage_image%'
+            uri_prefix: /uploads/voyage_image #construire les liens quand il va recuperer au niveaux du front , le prefix des liens
             upload_destination: '%kernel.project_dir%/public/uploads/voyage_image' #deposer les fichiers
             delete_on_remove: true
             delete_on_update: true
