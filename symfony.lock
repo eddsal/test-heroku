@@ -29,6 +29,9 @@
     "doctrine/dbal": {
         "version": "2.12.0"
     },
+    "doctrine/deprecations": {
+        "version": "v0.5.3"
+    },
     "doctrine/doctrine-bundle": {
         "version": "2.0",
         "recipe": {
@@ -96,6 +99,9 @@
     "egulias/email-validator": {
         "version": "2.1.23"
     },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.5"
+    },
     "fzaninotto/faker": {
         "version": "v1.9.1"
     },
@@ -107,6 +113,9 @@
     },
     "knplabs/knp-paginator-bundle": {
         "version": "v5.4.1"
+    },
+    "laminas/laminas-code": {
+        "version": "4.4.0"
     },
     "monolog/monolog": {
         "version": "2.1.1"
@@ -158,6 +167,18 @@
     },
     "stripe/stripe-php": {
         "version": "v7.78.0"
+    },
+    "symfony/apache-pack": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "71599f5b0fdeeeec0fb90e9b17c85e6f5e1350c1"
+        },
+        "files": [
+            "public/.htaccess"
+        ]
     },
     "symfony/asset": {
         "version": "v5.1.8"
