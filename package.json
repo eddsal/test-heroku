@@ -11,12 +11,12 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "dev-server": "encore dev-server",
-        "dev": "encore dev",
-        "build": "webpack -p --config ./resources/webpack/webpack.config.js --display-error-details",
-            "watch": "webpack -d --watch --config ./resources/webpack/webpack.config.js --display-error-details",
-            "heroku-postbuild": "webpack -p --config ./resources/webpack/webpack.config.js"
-    },
+            "dev-server": "encore dev-server",
+            "dev": "encore dev",
+            "watch": "encore dev --watch",
+            "build": "encore production",
+            "heroku-postbuild": "encore production"
+  },
     "dependencies": {
         "@coreui/coreui": "^3.4.0",
         "@coreui/icons": "^1.0.1",
