@@ -8,7 +8,7 @@ class Payement {
     public function checkout($total){
         \Stripe\Stripe::setApiKey('sk_test_51IrUFOIPqsC3XcMtWqQrKCcHNcaQBh3qjY5CDNRhLgYLzYlCxS3VGDYUQjVdJsK9sZCnvOq1EuT5dBGezn1H04Ns00ZrM6FeNX');
         header('Content-Type: application/json');
-        $YOUR_DOMAIN = 'http://localhost:8082';
+        $YOUR_DOMAIN = 'https://heroku-tripdreams.herokuapp.com/';
         $checkout_session = \Stripe\Checkout\Session::create([
             'payment_method_types' => ['card'],
             'line_items' => [[
